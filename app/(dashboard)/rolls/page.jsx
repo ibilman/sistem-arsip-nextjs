@@ -49,7 +49,7 @@ export default function AddRollPage() {
       <div className="bg-white rounded-xl shadow-md p-8">
         <form onSubmit={handleSubmit} className="space-y-6">
           <div>
-            <label className="block text-sm font-semibold text-gray-700 mb-2">
+            <label className="block text-sm font-semibold text-black-700 mb-2">
               Nama Roll O Pack *
             </label>
             <input
