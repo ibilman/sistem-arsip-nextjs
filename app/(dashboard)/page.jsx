@@ -74,7 +74,7 @@ export default function HomePage() {
 
   return (
     <div>
-      <h1 className="text-3xl font-bold text-gray-800 mb-8">Dashboard</h1>
+      <h1 className="text-3xl font-bold text-black-800 mb-8">Dashboard</h1>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
         <StatCard icon="📚" number={stats.rolls} label="Roll O Pack" color="purple" />
