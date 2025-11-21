@@ -38,7 +38,7 @@ export default function AddRollPage() {
 
   return (
     <div className="max-w-2xl mx-auto">
-      <h1 className="text-3xl font-bold text-gray-800 mb-8">Tambah Roll O Pack Baru</h1>
+      <h1 className="text-3xl font-bold text-black-800 mb-8">Tambah Roll O Pack Baru</h1>
 
       {message && (
         <div className={`p-4 rounded-lg mb-6 ${message.includes('Error') ? 'bg-red-100 text-red-700' : 'bg-green-100 text-green-700'}`}>
