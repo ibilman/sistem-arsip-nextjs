@@ -68,7 +68,7 @@ export default function AddBoxPage() {
             <select
               value={rollId}
               onChange={(e) => setRollId(e.target.value)}
-              className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg text-black focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition outline-none"
+              className="text-black w-full px-4 py-3 border-2 border-gray-300 rounded-lg text-black focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition outline-none"
               required
             >
               <option value="">-- Pilih Roll --</option>
