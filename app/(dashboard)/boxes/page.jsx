@@ -101,7 +101,7 @@ export default function AddBoxPage() {
             <textarea
               value={keterangan}
               onChange={(e) => setKeterangan(e.target.value)}
-              className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition outline-none"
+              className="text-black w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition outline-none"
               rows="3"
               placeholder="Keterangan tambahan..."
             />
