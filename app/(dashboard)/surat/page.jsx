@@ -103,7 +103,7 @@ export default function AddSuratPage() {
               <select
                 value={boxId}
                 onChange={(e) => setBoxId(e.target.value)}
-                className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition outline-none"
+                className="text-black w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition outline-none"
                 required
               >
                 <option value="">-- Pilih Box --</option>
@@ -122,7 +122,7 @@ export default function AddSuratPage() {
               <select
                 value={jraId}
                 onChange={(e) => setJraId(e.target.value)}
-                className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition outline-none"
+                className="text-black w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition outline-none"
               >
                 <option value="">-- Pilih JRA (Opsional) --</option>
                 {jras.map((jra) => (
@@ -143,7 +143,7 @@ export default function AddSuratPage() {
                 type="text"
                 value={nomorSurat}
                 onChange={(e) => setNomorSurat(e.target.value)}
-                className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition outline-none"
+                className="text-black w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition outline-none"
                 placeholder="Contoh: 001/DIR/2024"
                 required
               />
@@ -157,7 +157,7 @@ export default function AddSuratPage() {
                 type="date"
                 value={tanggal}
                 onChange={(e) => setTanggal(e.target.value)}
-                className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition outline-none"
+                className="text-black w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition outline-none"
                 required
               />
             </div>
@@ -171,7 +171,7 @@ export default function AddSuratPage() {
               type="text"
               value={perihal}
               onChange={(e) => setPerihal(e.target.value)}
-              className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition outline-none"
+              className="text-black w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition outline-none"
               placeholder="Contoh: Undangan Rapat"
               required
             />
@@ -186,7 +186,7 @@ export default function AddSuratPage() {
                 type="text"
                 value={pengirim}
                 onChange={(e) => setPengirim(e.target.value)}
-                className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition outline-none"
+                className="text-black w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition outline-none"
                 placeholder="Nama pengirim"
               />
             </div>
@@ -199,7 +199,7 @@ export default function AddSuratPage() {
                 type="text"
                 value={penerima}
                 onChange={(e) => setPenerima(e.target.value)}
-                className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition outline-none"
+                className="text-black w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition outline-none"
                 placeholder="Nama penerima"
               />
             </div>
@@ -212,7 +212,7 @@ export default function AddSuratPage() {
             <textarea
               value={keterangan}
               onChange={(e) => setKeterangan(e.target.value)}
-              className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition outline-none"
+              className="text-black w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition outline-none"
               rows="3"
               placeholder="Keterangan tambahan..."
             />
