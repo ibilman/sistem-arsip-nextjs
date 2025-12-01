@@ -88,7 +88,7 @@ export default function AddBoxPage() {
               type="text"
               value={nama}
               onChange={(e) => setNama(e.target.value)}
-              className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition outline-none"
+              className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition outline-none text-black placeholder-gray-500"
               placeholder="Contoh: Box A-01-001"
               required
             />
