@@ -92,7 +92,7 @@ export default function JRAPage() {
                 type="text"
                 value={kode}
                 onChange={(e) => setKode(e.target.value)}
-                className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition outline-none"
+                className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg text-black focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition outline-none"
                 placeholder="Contoh: A.01"
                 required
               />
@@ -106,7 +106,7 @@ export default function JRAPage() {
                 type="text"
                 value={jenisArsip}
                 onChange={(e) => setJenisArsip(e.target.value)}
-                className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition outline-none"
+                className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg text-black focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition outline-none"
                 placeholder="Contoh: Surat Keputusan"
                 required
               />
@@ -122,7 +122,7 @@ export default function JRAPage() {
                 type="number"
                 value={retensiAktif}
                 onChange={(e) => setRetensiAktif(e.target.value)}
-                className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition outline-none"
+                className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg text-black focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition outline-none"
                 placeholder="2"
                 min="0"
                 required
@@ -137,7 +137,7 @@ export default function JRAPage() {
                 type="number"
                 value={retensiInaktif}
                 onChange={(e) => setRetensiInaktif(e.target.value)}
-                className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition outline-none"
+                className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg text-black focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition outline-none"
                 placeholder="5"
                 min="0"
                 required
@@ -152,7 +152,7 @@ export default function JRAPage() {
             <textarea
               value={keterangan}
               onChange={(e) => setKeterangan(e.target.value)}
-              className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition outline-none"
+              className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg text-black focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition outline-none"
               rows="2"
               placeholder="Keterangan tambahan..."
             />
