@@ -70,7 +70,7 @@ export default function AddRollPage() {
               type="text"
               value={lokasi}
               onChange={(e) => setLokasi(e.target.value)}
-              className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition outline-none"
+              className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg text-black focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition outline-none"
               placeholder="Contoh: Gudang Lantai 2"
               required
             />
